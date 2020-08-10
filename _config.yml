@@ -16,8 +16,9 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   </a>
   <a href="https://www.zhihu.com/people/zhao-yu-feng-33-67">
     <i class="fab fa-zhihu"></i>
-  </a> <br/>
-  网站版本0.11.14 <br/> 
+  </a> 
+   <br/>
+  网站版本0.11.15 <br/> 
   2020.08.11 <br/>
   <iframe
     width=100%
