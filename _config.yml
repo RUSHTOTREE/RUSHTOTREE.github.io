@@ -1,20 +1,20 @@
 title: AmachiInori # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-
-  ASC<br/>
-  <a href="mailto:i@wu-kan.cn">
+  いつの日も歌おう！<br/>
+  小五世界第一<br/>
+  <a href="mailto:YuukiInori@outlook.com">
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="https://github.com/wu-kan">
+  <a href="https://github.com/AmachiInori">
     <i class="fab fa-github"></i>
   </a>
-  <a href="https://codeforces.com/profile/WuK">
+  <a href="https://leetcode-cn.com/u/amachi-inori/">
     <i class="fas fa-chart-bar"></i>
   </a>
-  <a href="https://vjudge.net/user/WuK">
-    <i class="fas fa-smile"></i>
+  <a href="https://twitter.com/HimemiyaKodama">
+    <i class="fas fa-twitter"></i>
   </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities">
+  <a href="https://www.zhihu.com/people/zhao-yu-feng-33-67">
     <i class="fab fa-zhihu"></i>
   </a>
 url: https://amachiinori.github.io # 你的域名，例如 https://wu-kan.github.io
@@ -47,97 +47,36 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 title="RSS"
                 type="application/rss+xml"
               />
+
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
+                href="https://sm.ms/image/KazmEAxyIYkZXMU"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
+                href="https://sm.ms/image/KazmEAxyIYkZXMU"
               />
+
             - | # 来自lanyon的页面样式，不要改
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css,gh/poole/lanyon@v1.1.0/public/css/syntax.min.css"
               />
+
             - | # 用js引入fontawesome图标样式，功能更丰富
               <script
                 async="async"
                 src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
               ></script>
-            - | # 引入live2d看板娘！不需要可以把这一项都删掉
-              <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
-              />
-              <script
-                async="async"
-                src="https://cdn.jsdelivr.net/combine/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js,gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
-                onload='
-                    let pio_container = document.createElement("div");
-                    pio_container.classList.add("pio-container");
-                    pio_container.classList.add("right");
-                    pio_container.style.bottom = "-2rem";
-                    pio_container.style.zIndex = "1";
-                    document.body.insertAdjacentElement("beforeend", pio_container);
-                    let pio_action = document.createElement("div");
-                    pio_action.classList.add("pio-action");
-                    pio_container.insertAdjacentElement("beforeend", pio_action);
-                    let pio_canvas = document.createElement("canvas");
-                    pio_canvas.id = "pio";
-                    pio_canvas.style.width = "14rem";
-                    pio_canvas.width = "600";
-                    pio_canvas.height = "800";
-                    pio_container.insertAdjacentElement("beforeend", pio_canvas);
-                    let pio = new Paul_Pio({
-                      "mode": "fixed",
-                      "hidden": true,
-                      "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
-                      "content": {
-                        "link": ["https:\/\/jekyll-theme-WuK.wu-kan.cn"],
-                        "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
-                        "hidden": true,
-                        "custom": [{
-                          "selector": "a",
-                          "type": "link",
-                        }, {
-                          "selector": ".sidebar-toggle",
-                          "text": "打开侧边栏叭~"
-                        }, {
-                          "selector": ".effect-info",
-                          "text": "哇，你发现了什么！"
-                        }, {
-                          "selector": "#sidebar-search-input",
-                          "text": "想搜索什么呢？很多干货哦！"
-                        }, {
-                          "selector": "#toc",
-                          "text": "这是目录~"
-                        }, {
-                          "selector": ".page-title",
-                          "text": "这是标题~"
-                        }, {
-                          "selector": ".v",
-                          "text": "评论没有审核，要对自己的发言负责哦~"
-                        }]
-                      },
-                      "model": [
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/mashiro/seifuku.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/Violet/14.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/Kobayaxi/Kobayaxi.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/mikoto/mikoto.model.json",
-                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json"]
-                    });'
-              ></script>
+
             - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
               <script
                 src='https://zz.bdstatic.com/linksubmit/push.js'
                 async="async"
               ></script>
+
             - | # 网站背景图片，分竖屏、宽屏；改链接即可，不想用可以把这一项全删掉；要换壁纸图片的话可把url内的部分换成你自己的，比如你放在 /assets/image/background.jpg，那就改成 url(/assets/image/background.jpg)
               <style>
                 .wrap {
@@ -166,6 +105,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   transform: translateX(0);
                 }
               </style>
+
             - | # 网站字体，要换字体建议架梯子上<https://fonts.google.com/>挑选，再通过fonts.loli.net 加速引入
               <style>
                 .sidebar,
@@ -179,6 +119,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   font-family: PingFang SC, Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
                 }
               </style>
+
             - | # 网页标题使用加粗字号
               <style>
                 h1,
@@ -190,6 +131,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   font-weight: bold;
                 }
               </style>
+
             - | #修复行内图片默认样式
               <style>
                 img {
@@ -197,6 +139,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   margin: 0;
                 }
               </style>
+
             - | # 彩虹滚动条，仅对Chrome系浏览器生效
               <style>
                 ::-webkit-scrollbar {
@@ -207,6 +150,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-image: linear-gradient(45deg, Cyan 0%, Magenta 50%, Yellow 100%);
                 }
               </style>
+
             - | # 选中字体颜色
               <style>
                 ::selection {
@@ -214,11 +158,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background: Black;
                 }
               </style>
+
           sidebar: # 此配置项下是一些关于侧边栏的配置
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+              img: https://sm.ms/image/KazmEAxyIYkZXMU # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
@@ -233,6 +178,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
+
               append: | # 如果看不懂就不改
                 <style>
                   #sidebar-search-input {
@@ -266,6 +212,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                       fuzzy: true
                     })'
                 ></script>
+
             jekyll-toc: # 侧边栏的目录插件，https://github.com/allejo/jekyll-toc
               enable: true
               prepend: | # 目录过长时自动折叠
@@ -275,6 +222,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     max-height: 66.6vh;
                   }
                 </style>
+
             append_to_sidebar:
               #- <script defer="defer" src="https://cdn.jsdelivr.net/gh/poole/lanyon@v1.1.0/public/js/script.min.js"></script> # 点击空白处而非按钮从而关闭侧边栏的插件，可选
               - | #修复点击侧边栏按钮回到顶部的问题
@@ -317,6 +265,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     transform: rotate3d(0, 1, 0, -180deg);
                   }
                 </style>
+
               - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
                 <div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
@@ -360,9 +309,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    "10/04/2017 11:03:56")// 这是我第一篇CSDN博客的时间
+                    "10/01/2019 15:52:00")
                   </script>
                 </div>
+
               - | # 不蒜子页面统计，看不懂可不改
                 <div>
                   <div>
@@ -388,6 +338,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     async='async'
                   ></script>
                 </div>
+
               - | # 觉得我的主题好用的话，让更多的人知道它吧！
                 <div>
                   <i class="fas fa-thumbs-up fa-fw"></i>
@@ -395,6 +346,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     jekyll-theme-WuK
                   </a>
                 </div>
+
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
@@ -405,6 +357,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               prepend: <i class="fas fa-user-edit fa-fw"></i>
               kilo: 千
               unit: 字
+
         page:
           masthead: # 显示顶栏
             enable: true
@@ -515,6 +468,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                 }
               </style>
+
         comments: # 留言页
           append:
             | # 配置评论区，appId和appKey需要换成你自己的，见<https://valine.js.org/configuration.html>，推荐再整一个评论管理系统<https://github.com/DesertsP/Valine-Admin>
@@ -535,6 +489,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   "recordIP": true
                 })'
             ></script>
+
         post:
           date: # 显示博文时间
             enable: true
