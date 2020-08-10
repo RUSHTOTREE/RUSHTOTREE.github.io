@@ -18,7 +18,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.00.02 <br/> 
+  网站版本 1.00.03 <br/> 
   2020.08.11 <br/>
   <iframe
     width=100%
@@ -510,7 +510,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             <a
               href="https://creativecommons.org/licenses/by/4.0/deed.zh"
               rel="license">
-              CC BY 4.0
+              著作权声明[CC By 4.0]:您可以自由地共享和演绎本文稿, 只需遵守...
             </a>
             （除特别声明或转载文章外）
         tags:
