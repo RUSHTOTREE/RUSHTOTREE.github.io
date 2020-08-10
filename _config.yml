@@ -12,7 +12,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fas fa-chart-bar"></i>
   </a>
   <a href="https://twitter.com/HimemiyaKodama">
-    <i class="fas fa-twitter"></i>
+    <i class="fa fa-twitter"></i>
   </a>
   <a href="https://www.zhihu.com/people/zhao-yu-feng-33-67">
     <i class="fab fa-zhihu"></i>
@@ -51,12 +51,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://sm.ms/image/KazmEAxyIYkZXMU"
+                href="https://i.loli.net/2020/08/10/KazmEAxyIYkZXMU.png"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://sm.ms/image/KazmEAxyIYkZXMU"
+                href="https://i.loli.net/2020/08/10/KazmEAxyIYkZXMU.png"
               />
 
             - | # 来自lanyon的页面样式，不要改
