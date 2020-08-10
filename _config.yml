@@ -18,8 +18,10 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.00.045 <br/> 
+  网站版本 1.00.046 <br/> 
   2020.08.11 <br/>
+  目前博文正在迁移至本站 <br/>
+  旧博客停止维护 <br/>
   <iframe
     width=100%
     height=52
