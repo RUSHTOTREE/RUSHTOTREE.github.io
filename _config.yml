@@ -12,7 +12,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fas fa-chart-bar"></i>
   </a>
   <a href="https://twitter.com/HimemiyaKodama">
-    <i class="fa fa-twitter"></i>
+    <i class="fab fa-twitter"></i>
   </a>
   <a href="https://www.zhihu.com/people/zhao-yu-feng-33-67">
     <i class="fab fa-zhihu"></i>
@@ -163,7 +163,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg # 头像的地址
+              img: https://i.loli.net/2020/08/10/KazmEAxyIYkZXMU.png # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
@@ -622,7 +622,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 plugins: [ RevealMarkdown ]
               });
             "></script>
-            
+
         page404:
           prepend:
             - | # 腾讯公益
