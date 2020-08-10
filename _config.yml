@@ -29,7 +29,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         default:
           body:
             theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
-            layout-reverse: false # 开启后sidebar在右边，反之左边
+            layout-reverse: true # 开启后sidebar在右边，反之左边
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
             - | #一些页面优化标签，看不懂可跳过
@@ -84,6 +84,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   transition-duration: .3s;
                   transition-timing-function: ease-in-out;
                   min-height: 100%;
+                  display: inline-block;
                   background-size: 100% auto;
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
@@ -162,7 +163,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://sm.ms/image/KazmEAxyIYkZXMU # 头像的地址
+              img: https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
@@ -581,6 +582,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
                 defer='defer'
               ></script>
+
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
           append_to_section_tag:
             - key: data-markdown
@@ -588,8 +590,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               value: <!-- .slide -->
             - key: data-separator-vertical # 垂直展示页分隔符
               value: <!-- .slide vertical=true -->
-            - key: data-background-color
-              value: "White"
+            - key: data-background-image
+              value: "https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg"
           prepend: |
             <link
               rel="stylesheet"
@@ -620,6 +622,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 plugins: [ RevealMarkdown ]
               });
             "></script>
+            
         page404:
           prepend:
             - | # 腾讯公益
