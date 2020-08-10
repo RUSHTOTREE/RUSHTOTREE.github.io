@@ -16,10 +16,10 @@
 
 <!-- .slide vertical=true -->
 
-- E-mail:&nbsp; &nbsp; &nbsp; **[YuukiInori@outlook.com](mailto:YuukiInori@outlook.com)**
-- twitter:&nbsp; &nbsp; &nbsp; **[HimemiyaKodama](https://twitter.com/HimemiyaKodama)**
-- leetcode-CN:&nbsp; **[AmachiInori](https://leetcode-cn.com/u/amachi-inori/)**
-- github:&nbsp; &nbsp; &nbsp; **[AmachiInori](https://github.com/AmachiInori)**
+- E-mail:**[YuukiInori@outlook.com](mailto:YuukiInori@outlook.com)**
+- twitter:**[HimemiyaKodama](https://twitter.com/HimemiyaKodama)**
+- leetcode: **[AmachiInori](https://leetcode-cn.com/u/amachi-inori/)**
+- github: **[AmachiInori](https://github.com/AmachiInori)**
 
 <!-- .slide -->
 
