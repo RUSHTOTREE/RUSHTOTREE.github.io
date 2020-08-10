@@ -595,7 +595,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           prepend: |
             <link
               rel="stylesheet"
-              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.2/dist/reveal.min.css,npm/reveal.js@4.0.2/dist/theme/serif.min.css"
+              href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.2/dist/reveal.min.css,npm/reveal.js@4.0.2/dist/theme/black.min.css"
             />
             <style>
               .sidebar {
