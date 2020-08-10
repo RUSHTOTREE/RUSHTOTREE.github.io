@@ -586,6 +586,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
           append_to_section_tag:
             - key: data-markdown
+            - key: color
+              value: white
             - key: data-separator # 水平展示页分隔符
               value: <!-- .slide -->
             - key: data-separator-vertical # 垂直展示页分隔符
