@@ -3,7 +3,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   いつの日も歌おう！<br/>
   小五世界第一<br/>
   <a href="mailto:YuukiInori@outlook.com">
-    <i class="fas fa-envelope"></i>
+    <i class="fas fa-envelope"></i> 
   </a>
   <a href="https://github.com/AmachiInori">
     <i class="fab fa-github"></i>
@@ -89,11 +89,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/74559485_p1.webp);
+                  background-image: url(https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
-                    background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/71932901_p0.webp);
+                    background-image: url(https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg);
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
@@ -353,7 +353,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   2017-2020 WuK
                 </div>
             wordcount: # 全站字数统计
-              enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
+              enable: true # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
               kilo: 千
               unit: 字
@@ -481,8 +481,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               onload='
                 new Valine({
                   "el": document.getElementsByClassName("v")[0],
-                  "appId": "9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz",
-                  "appKey": "NJ7RwmgrxsF7KDzlqU7YewlL",
+                  "appId": "N9VL7AzPwW97oVzqv3QhAjvj-gzGzoHsz",
+                  "appKey": "7FHWwHE8NqSizTUlFs1814wD",
                   "placeholder": "在这里评论吧！填写邮箱可以获得 Gravatar 头像和回复通知哦",
                   "requiredFields": ["nick","mail"],
                   "visitor": true,
