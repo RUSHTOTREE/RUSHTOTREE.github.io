@@ -163,7 +163,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://i.loli.net/2020/08/11/A3WdFCsLuDcrUwH.jpg);
+                  background-image: url(https://i.loli.net/2020/08/11/quEZWfeI5Ar8JVh.jpg);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
