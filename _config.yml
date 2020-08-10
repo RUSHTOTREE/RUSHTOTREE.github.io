@@ -16,8 +16,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   </a>
   <a href="https://www.zhihu.com/people/zhao-yu-feng-33-67">
     <i class="fab fa-zhihu"></i>
-  </a>
-  <br/>
+  </a> <br/>
   网站版本0.11.14 <br/> 
   2020.08.11 <br/>
   <iframe
@@ -177,7 +176,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /merger/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
-              full_text_search: false # 可能导致缓慢的搜索和加载
+              full_text_search: true # 可能导致缓慢的搜索和加载
               append: | # 如果看不懂就不改
                 <style>
                   #sidebar-search-input {
