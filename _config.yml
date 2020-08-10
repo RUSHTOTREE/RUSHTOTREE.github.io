@@ -2,7 +2,7 @@ title: AmachiInori # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   いつの日も歌おう！<br/>
   小五世界第一 <br/>
-  网站版本0.11.03 <br/>
+  网站版本0.11.04 <br/>
   2020.08.10 <br/>
   <a href="mailto:YuukiInori@outlook.com">
     <i class="fas fa-envelope"></i> 
@@ -594,6 +594,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               value: <!-- .slide vertical=true -->
             - key: data-background-image
               value: "https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg"
+            - key: data-background
+              value: "black"
           prepend: |
             <link
               rel="stylesheet"
