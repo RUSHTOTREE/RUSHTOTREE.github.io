@@ -64,3 +64,8 @@
                         "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json"]
                     });'
               ></script>
+
+#- key: data-background-image
+            #  value: "https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg"
+            #- key: data-background
+            #  value: "black"

@@ -2,7 +2,7 @@ title: AmachiInori # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   いつの日も歌おう！<br/>
   小五世界第一 <br/>
-  网站版本0.11.04 <br/>
+  网站版本0.11.05 <br/>
   2020.08.10 <br/>
   <a href="mailto:YuukiInori@outlook.com">
     <i class="fas fa-envelope"></i> 
@@ -592,10 +592,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               value: <!-- .slide -->
             - key: data-separator-vertical # 垂直展示页分隔符
               value: <!-- .slide vertical=true -->
-            #- key: data-background-image
-            #  value: "https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg"
-            #- key: data-background
-            #  value: "black"
           prepend: |
             <link
               rel="stylesheet"
@@ -650,7 +646,7 @@ compress_html: # <https://github.com/penibelst/jekyll-compress-html>
 
 # githubpage上支持的插件见<https://pages.github.com/versions/>
 plugins: # <https://jekyllrb.com/docs/plugins/>
-  - jekyll-readme-index # 使用readme做index，从而和github渲染效果一致
+  - jekyll-readme-index # 使用readme做index，从而和github渲染效果一致    ..........此处待修改20200810
   - jekyll-default-layout # 为每个markdown自动生成layout
   - jekyll-seo-tag # 为每个页面生成标题
   - jekyll-sitemap # 为站点生成站点地图
