@@ -592,10 +592,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               value: <!-- .slide -->
             - key: data-separator-vertical # 垂直展示页分隔符
               value: <!-- .slide vertical=true -->
-            - key: data-background-image
-              value: "https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg"
-            - key: data-background
-              value: "black"
+            #- key: data-background-image
+            #  value: "https://i.loli.net/2020/08/10/ZPAo6THO3WSniFw.jpg"
+            #- key: data-background
+            #  value: "black"
           prepend: |
             <link
               rel="stylesheet"
