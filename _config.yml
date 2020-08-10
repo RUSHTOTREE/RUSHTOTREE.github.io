@@ -2,8 +2,6 @@ title: AmachiInori # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   いつの日も歌おう！<br/>
   小五世界第一 <br/>
-  网站版本0.11.12 <br/> 
-  2020.08.11 <br/>
   <a href="mailto:YuukiInori@outlook.com">
     <i class="fas fa-envelope"></i> 
   </a>
@@ -57,7 +55,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 title="RSS"
                 type="application/rss+xml"
               />
-
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
@@ -68,25 +65,21 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 icon"
                 href="https://i.loli.net/2020/08/10/KazmEAxyIYkZXMU.png"
               />
-
             - | # 来自lanyon的页面样式，不要改
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css,gh/poole/lanyon@v1.1.0/public/css/syntax.min.css"
               />
-
             - | # 用js引入fontawesome图标样式，功能更丰富
               <script
                 async="async"
                 src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
               ></script>
-
             - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
               <script
                 src='https://zz.bdstatic.com/linksubmit/push.js'
                 async="async"
               ></script>
-
             - | # 网站背景图片，分竖屏、宽屏；改链接即可，不想用可以把这一项全删掉；要换壁纸图片的话可把url内的部分换成你自己的，比如你放在 /assets/image/background.jpg，那就改成 url(/assets/image/background.jpg)
               <style>
                 .wrap {
@@ -115,7 +108,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   transform: translateX(0);
                 }
               </style>
-
             - | # 网站字体，要换字体建议架梯子上<https://fonts.google.com/>挑选，再通过fonts.loli.net 加速引入
               <style>
                 .sidebar,
@@ -129,7 +121,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   font-family: PingFang SC, Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
                 }
               </style>
-
             - | # 网页标题使用加粗字号
               <style>
                 h1,
@@ -141,7 +132,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   font-weight: bold;
                 }
               </style>
-
             - | #修复行内图片默认样式
               <style>
                 img {
@@ -149,7 +139,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   margin: 0;
                 }
               </style>
-
             - | # 彩虹滚动条，仅对Chrome系浏览器生效
               <style>
                 ::-webkit-scrollbar {
@@ -160,7 +149,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-image: linear-gradient(45deg, Cyan 0%, Magenta 50%, Yellow 100%);
                 }
               </style>
-
             - | # 选中字体颜色
               <style>
                 ::selection {
@@ -168,7 +156,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background: Black;
                 }
               </style>
-
           sidebar: # 此配置项下是一些关于侧边栏的配置
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
@@ -188,7 +175,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
-
               append: | # 如果看不懂就不改
                 <style>
                   #sidebar-search-input {
@@ -222,7 +208,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                       fuzzy: true
                     })'
                 ></script>
-
             jekyll-toc: # 侧边栏的目录插件，https://github.com/allejo/jekyll-toc
               enable: true
               prepend: | # 目录过长时自动折叠
@@ -232,7 +217,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     max-height: 66.6vh;
                   }
                 </style>
-
             append_to_sidebar:
               #- <script defer="defer" src="https://cdn.jsdelivr.net/gh/poole/lanyon@v1.1.0/public/js/script.min.js"></script> # 点击空白处而非按钮从而关闭侧边栏的插件，可选
               - | #修复点击侧边栏按钮回到顶部的问题
@@ -275,7 +259,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     transform: rotate3d(0, 1, 0, -180deg);
                   }
                 </style>
-
               - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
                 <div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
@@ -322,7 +305,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     "10/01/2019 15:52:00")
                   </script>
                 </div>
-
               - | # 不蒜子页面统计，看不懂可不改
                 <div>
                   <div>
@@ -348,7 +330,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     async='async'
                   ></script>
                 </div>
-
               - | # 觉得我的主题好用的话，让更多的人知道它吧！
                 <div>
                   <i class="fas fa-thumbs-up fa-fw"></i>
@@ -356,18 +337,20 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     jekyll-theme-WuK
                   </a>
                 </div>
-
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
                   2017-2020 WuK
+                </div>
+                <div>
+                  网站版本0.11.13 <br/> 
+                  2020.08.11 <br/>
                 </div>
             wordcount: # 全站字数统计
               enable: true # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
               kilo: 千
               unit: 字
-
         page:
           masthead: # 显示顶栏
             enable: true
@@ -478,7 +461,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                 }
               </style>
-
         comments: # 留言页
           append:
             | # 配置评论区，appId和appKey需要换成你自己的，见<https://valine.js.org/configuration.html>，推荐再整一个评论管理系统<https://github.com/DesertsP/Valine-Admin>
@@ -499,7 +481,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   "recordIP": true
                 })'
             ></script>
-
         post:
           date: # 显示博文时间
             enable: true
@@ -533,14 +514,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               CC BY 4.0
             </a>
             （除特别声明或转载文章外）
-
         tags:
           pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
             enable: false
           count: true # 统计每个标签下文章的数量
           toc: # 在正文里显示一个标签的目录
             enable: false
-
         archive:
           group_by: "%b %Y" # 见<https://liquid.bootcss.com/filters/date/>
           posts_count:
@@ -551,7 +530,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           year_count: true
           toc: # 在正文里显示一个归档的目录
             enable: false
-
         merger: # 打赏页，需要配置！
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
@@ -592,7 +570,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
                 defer='defer'
               ></script>
-
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
           append_to_section_tag:
             - key: data-markdown
@@ -633,7 +610,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 plugins: [ RevealMarkdown ]
               });
             "></script>
-
         page404:
           prepend:
             - | # 腾讯公益
