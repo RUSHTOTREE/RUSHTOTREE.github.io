@@ -16,16 +16,16 @@
 
 <!-- .slide vertical=true -->
 
-- E-mail:**   YuukiInori@outlook.com**
-- twitter:**[   HimemiyaKodama](https://twitter.com/HimemiyaKodama)**
-- leetcode:**[ AmachiInori](https://leetcode-cn.com/u/amachi-inori/)**
-- github:**[   AmachiInori](https://github.com/AmachiInori)**
+- E-mail:**YuukiInori@outlook.com**
+- twitter:**[HimemiyaKodama](https://twitter.com/HimemiyaKodama)**
+- leetcode:**[AmachiInori](https://leetcode-cn.com/u/amachi-inori/)**
+- github:**[AmachiInori](https://github.com/AmachiInori)**
 
 <!-- .slide -->
 
 ## **关于天知いのり / 木灵**
 
-#### 技能列表
+### 技能列表
 
 - **C++** / **C**
 - **python3**
@@ -35,9 +35,8 @@
 - **声乐** / **长笛**
 
 <!-- .slide -->
-## **关于天知いのり / 木灵**
 
-#### 喜欢的东西以及业余爱好
+### 喜欢的东西以及业余爱好
 
 - **古明地觉**
 - 动漫以及漫画
@@ -49,9 +48,8 @@
   - 声乐
 
 <!-- .slide -->
-## **关于天知いのり / 木灵**
 
-#### 愿望
+### 愿望
 
 - 一支纯银长笛
 - 写好C++
@@ -60,5 +58,6 @@
 - 吃好睡好
 - 成为女孩子
 - 世界和平
+  
 
 本页面样式来源于Wu-kan
