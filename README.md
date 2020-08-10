@@ -1,13 +1,12 @@
-# 星合の空
+# 木灵的炼金工作室
 
-欢迎访问我的个人主页！下面向你介绍一下我自己吧~
+Fork from  Wu-kan
 
 <!-- .slide -->
 
 ## 我的一些联系方式
 
-- Address: **Sun Yat-sen University - 132 Waihuan East Rd. - Guangzhou, China**
-- Phone: **+86 18756280097**
+- Address: **Beijing Institute of Technology, Beijing, China**
 - Site: **<https://wu-kan.cn>**
 
 <!-- .slide vertical=true -->
