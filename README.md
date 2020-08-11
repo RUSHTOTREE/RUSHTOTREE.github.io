@@ -64,6 +64,10 @@
   
 <!-- .slide -->
 
-自述文档版本 1.01.01  
+本网站使用双托管技术  
+主站:[https://amachi.com.cn/](https://amachi.com.cn/)  
+镜像:[https://tqa8d6.coding-pages.com/](https://tqa8d6.coding-pages.com/)  
+
+自述文档版本 1.01.02  
 本页面样式来源于[Wu-kan](https://wu-kan.cn/)  
 背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597)绘制
