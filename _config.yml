@@ -18,7 +18,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.00.049 <br/> 
+  网站版本 1.00.050 <br/> 
   2020.08.11 <br/>
   目前博文正在迁移至本站 <br/>
   旧博客停止维护 <br/>
@@ -672,7 +672,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 font-family: SimSun;
                 color: #FFFFFF;
               }
+              .reveal ul {
+                font-family: SimSun;
+                color: #FFFFFF;
+              }
               .reveal strong {
+                font-family: SimSun;
                 color: #FFFFFF;
               }
             </style>
