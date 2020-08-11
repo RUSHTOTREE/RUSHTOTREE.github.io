@@ -2,22 +2,22 @@ title: 木灵的炼金工作室 # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   いつの日も歌おう！<br/>
   小五世界第一 <br/>
-  <a href="mailto:YuukiInori@outlook.com">
+  <a target = "_blank" href="mailto:YuukiInori@outlook.com">
     <i class="fas fa-envelope"></i> 
   </a>
-  <a href="https://github.com/AmachiInori">
+  <a target = "_blank" href="https://github.com/AmachiInori">
     <i class="fab fa-github"></i>
   </a>
-  <a href="https://leetcode-cn.com/u/amachi-inori/">
+  <a target = "_blank" href="https://leetcode-cn.com/u/amachi-inori/">
     <i class="fas fa-chart-bar"></i>
   </a>
-  <a href="https://twitter.com/HimemiyaKodama">
+  <a target = "_blank" href="https://twitter.com/HimemiyaKodama">
     <i class="fab fa-twitter"></i>
   </a>
-  <a href="https://steamcommunity.com/id/Rairaku/">
+  <a target = "_blank" href="https://steamcommunity.com/id/Rairaku/">
     <i class="fab fa-steam"></i>
   </a> 
-  <a href="https://www.zhihu.com/people/zhao-yu-feng-33-67">
+  <a target = "_blank" href="https://www.zhihu.com/people/zhao-yu-feng-33-67">
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
@@ -252,7 +252,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /friends/
               - title: '<i class="fas fa-info-circle fa-fw"></i> 关于'
                 href: /about/
-                target: _blank
+                target: "_blank"
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: true # 可能导致缓慢的搜索和加载
