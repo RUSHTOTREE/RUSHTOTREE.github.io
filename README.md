@@ -64,9 +64,8 @@
   
 <!-- .slide -->
 
-本网站使用双托管技术  
-主站:[https://amachi.com.cn/](https://amachi.com.cn/){:target="_blank"}  
-镜像:[https://tqa8d6.coding-pages.com/](https://tqa8d6.coding-pages.com/){:target="_blank"}
+本站使用双托管技术，保证世界各地的通畅访问  
+通过国内访问看到的更新可能会推迟5-60分钟  
 
 自述文档版本 1.01.04  
 本页面样式来源于[Wu-kan](https://wu-kan.cn/){:target="_blank"}  
