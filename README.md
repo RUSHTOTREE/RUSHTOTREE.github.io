@@ -15,8 +15,8 @@
 
 <!-- .slide vertical=true -->
 
-- E-mail:**[YuukiInori@outlook.com](mailto:YuukiInori@outlook.com)**
-- twitter:**[HimemiyaKodama](https://twitter.com/HimemiyaKodama)**
+- E-mail: **[YuukiInori@outlook.com](mailto:YuukiInori@outlook.com)**
+- twitter: **[HimemiyaKodama](https://twitter.com/HimemiyaKodama)**
 - leetcode: **[AmachiInori](https://leetcode-cn.com/u/amachi-inori/)**
 - github: **[AmachiInori](https://github.com/AmachiInori)**
 
@@ -68,4 +68,4 @@
 <!-- .slide -->
 
 自述文档版本 1.00.050  
-本页面样式来源于Wu-kan
+本页面样式来源于[Wu-kan](https://wu-kan.cn/)
