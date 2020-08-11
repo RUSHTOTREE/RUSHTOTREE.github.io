@@ -13,14 +13,6 @@
 
 <!-- .slide vertical=true -->
 
-- E-mail: **[YuukiInori@outlook.com](mailto:YuukiInori@outlook.com){:target="_blank"}**
-- twitter: **[@HimemiyaKodama](https://twitter.com/HimemiyaKodama){:target="_blank"}**
-- leetcode: **[@AmachiInori](https://leetcode-cn.com/u/amachi-inori/){:target="_blank"}**
-- github: **[@AmachiInori](https://github.com/AmachiInori){:target="_blank"}**  
-- steam: **[steam](https://steamcommunity.com/id/Rairaku/){:target="_blank"}**
-
-<!-- .slide -->
-
 ### 技能列表
 
 - **C++** / **C** / **python3** / **Java**
@@ -83,9 +75,12 @@
 本站使用双托管技术，保证世界各地的通畅访问  
 通过国内访问看到的更新可能会推迟5-40分钟  
 
-自述文档版本 1.01.4703  
+自述文档版本 1.01.4704  
 本页面样式来源于[Wu-kan](https://wu-kan.cn/){:target="_blank"}  
 背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597){:target="_blank"}绘制  
 
 请打开右边栏以访问内容  
 [如果你也想建立与本站版式类似的站点..](_posts/2020-08-11-建站零.md)  
+
+<!-- .slide -->
+
