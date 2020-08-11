@@ -583,10 +583,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             您可以自由地共享和演绎本文稿, 只需遵守
             <a
               href="https://creativecommons.org/licenses/by/4.0/deed.zh"
-              rel="license">
-            著作权声明[CC By 4.0]
-            </a>
-            (除特别声明或转载文章外)
+              rel="license">著作权声明[CC By 4.0]</a>(除特别声明或转载文章外)
         tags:
           pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
             enable: false
