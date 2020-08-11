@@ -14,13 +14,17 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://twitter.com/HimemiyaKodama">
     <i class="fab fa-twitter"></i>
   </a>
+  <a href="https://steamcommunity.com/id/Rairaku/">
+    <i class="fab fa-steam"></i>
+  </a> 
   <a href="https://www.zhihu.com/people/zhao-yu-feng-33-67">
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.00.050 <br/> 
+  网站版本 1.00.051 <br/> 
   2020.08.11 <br/>
-  目前博文正在迁移至本站 <br/>
+  <p>
+  博文正在迁移至本站 <br/>
   旧博客停止维护 <br/>
   <iframe
     width=100%
