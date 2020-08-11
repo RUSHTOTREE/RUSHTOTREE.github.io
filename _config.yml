@@ -21,7 +21,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.01.041 <br/> 
+  网站版本 1.01.042 <br/> 
   2020.08.11 <br/>
   <p>
   博文正在迁移至本站 <br/>
@@ -248,6 +248,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /archive/
               - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
                 href: /merger/
+              - title: '<i class="fas fa-users" fa-fw"></i>' 友链
+                href: /friends/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: true # 可能导致缓慢的搜索和加载
