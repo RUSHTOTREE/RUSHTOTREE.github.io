@@ -665,6 +665,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 font-family: SimSun;
                 color: #FFFFFF;
               }
+              .reveal h3 {
+                font-family: SimSun;
+                color: #FFFFFF;
+              }
               .reveal a {
                 color: #6495ED;
               }
