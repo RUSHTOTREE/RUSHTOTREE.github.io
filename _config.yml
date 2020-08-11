@@ -18,7 +18,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.00.047 <br/> 
+  网站版本 1.00.048 <br/> 
   2020.08.11 <br/>
   目前博文正在迁移至本站 <br/>
   旧博客停止维护 <br/>
@@ -163,7 +163,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://i.loli.net/2020/08/11/quEZWfeI5Ar8JVh.jpg);
+                  background-image: url();
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
