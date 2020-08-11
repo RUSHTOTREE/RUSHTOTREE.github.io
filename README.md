@@ -1,7 +1,5 @@
 # 欢迎，云游者
 
-## 木灵的炼金工作室
-
 天知いのり的个人站  
 
 <!-- .slide -->
@@ -16,9 +14,10 @@
 <!-- .slide vertical=true -->
 
 - E-mail: **[YuukiInori@outlook.com](mailto:YuukiInori@outlook.com)**
-- twitter: **[HimemiyaKodama](https://twitter.com/HimemiyaKodama)**
-- leetcode: **[AmachiInori](https://leetcode-cn.com/u/amachi-inori/)**
-- github: **[AmachiInori](https://github.com/AmachiInori)**
+- twitter: **[@HimemiyaKodama](https://twitter.com/HimemiyaKodama)**
+- leetcode: **[@AmachiInori](https://leetcode-cn.com/u/amachi-inori/)**
+- github: **[@AmachiInori](https://github.com/AmachiInori)**  
+- steam: **[steam](https://steamcommunity.com/id/Rairaku/)**
 
 <!-- .slide -->
 
@@ -67,5 +66,6 @@
   
 <!-- .slide -->
 
-自述文档版本 1.00.050  
-本页面样式来源于[Wu-kan](https://wu-kan.cn/)
+自述文档版本 1.01.01  
+本页面样式来源于[Wu-kan](https://wu-kan.cn/)  
+背景图由Y_Y [pixiv](https://www.pixiv.net/users/9678597)绘制
