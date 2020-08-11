@@ -57,7 +57,7 @@
 
 - 一支纯银长笛
 - 写好C++
-- 画画变得好看
+- 成为作画大触
 - 软件硕士毕业
 - 吃好睡好
 - 世界和平
@@ -68,6 +68,8 @@
 主站:[https://amachi.com.cn/](https://amachi.com.cn/)  
 镜像:[https://tqa8d6.coding-pages.com/](https://tqa8d6.coding-pages.com/)  
 
-自述文档版本 1.01.02  
+自述文档版本 1.01.03  
 本页面样式来源于[Wu-kan](https://wu-kan.cn/)  
-背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597)绘制
+背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597)绘制  
+
+请打开右边栏以访问内容
