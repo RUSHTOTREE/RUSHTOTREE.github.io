@@ -88,4 +88,4 @@
 背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597){:target="_blank"}绘制  
 
 请打开右边栏以访问内容  
-[如果你也想建立与本站版式类似的站点..](_posts/2020-08-11-建站零.md)  
+[如果你也想建立与本站版式类似的站点..](_posts/2020-08-11-建站零.md){:target="_blank"}  
