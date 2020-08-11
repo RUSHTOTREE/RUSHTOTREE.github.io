@@ -659,9 +659,18 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               }
               .reveal h1 {
                 font-family: SimSun;
+                color: #FFFFFF;
+              }
+              .reveal h2 {
+                font-family: SimSun;
+                color: #FFFFFF;
               }
               .reveal a {
                 color: #6495ED;
+              }
+              .reveal p {
+                font-family: SimSun;
+                color: #FFFFFF;
               }
               .reveal strong {
                 color: #FFFFFF;
