@@ -13,11 +13,11 @@
 
 <!-- .slide vertical=true -->
 
-- E-mail: **[YuukiInori@outlook.com](mailto:YuukiInori@outlook.com)**
-- twitter: **[@HimemiyaKodama](https://twitter.com/HimemiyaKodama)**
-- leetcode: **[@AmachiInori](https://leetcode-cn.com/u/amachi-inori/)**
-- github: **[@AmachiInori](https://github.com/AmachiInori)**  
-- steam: **[steam](https://steamcommunity.com/id/Rairaku/)**
+- E-mail: **[YuukiInori@outlook.com](mailto:YuukiInori@outlook.com){:target="_blank"}**
+- twitter: **[@HimemiyaKodama](https://twitter.com/HimemiyaKodama){:target="_blank"}**
+- leetcode: **[@AmachiInori](https://leetcode-cn.com/u/amachi-inori/){:target="_blank"}**
+- github: **[@AmachiInori](https://github.com/AmachiInori){:target="_blank"}**  
+- steam: **[steam](https://steamcommunity.com/id/Rairaku/){:target="_blank"}**
 
 <!-- .slide -->
 
@@ -65,11 +65,11 @@
 <!-- .slide -->
 
 本网站使用双托管技术  
-主站:[https://amachi.com.cn/](https://amachi.com.cn/)  
-镜像:[https://tqa8d6.coding-pages.com/](https://tqa8d6.coding-pages.com/)  
+主站:[https://amachi.com.cn/](https://amachi.com.cn/){:target="_blank"}
+镜像:[https://tqa8d6.coding-pages.com/](https://tqa8d6.coding-pages.com/){:target="_blank"}
 
 自述文档版本 1.01.03  
-本页面样式来源于[Wu-kan](https://wu-kan.cn/)  
-背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597)绘制  
+本页面样式来源于[Wu-kan](https://wu-kan.cn/){:target="_blank"}
+背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597){:target="_blank"}绘制  
 
 请打开右边栏以访问内容
