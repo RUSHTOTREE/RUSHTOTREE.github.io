@@ -67,7 +67,7 @@
 本站使用双托管技术，保证世界各地的通畅访问  
 通过国内访问看到的更新可能会推迟5-60分钟  
 
-自述文档版本 1.01.04  
+自述文档版本 1.01.47  
 本页面样式来源于[Wu-kan](https://wu-kan.cn/){:target="_blank"}  
 背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597){:target="_blank"}绘制  
 
