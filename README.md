@@ -34,8 +34,11 @@
 
 ### 教育经历
 
-- 北京理工大学·材料化学·本科
-- 北京理工大学·软件工程·硕士
+- とある小学校
+- とある中学校
+- とある高校
+- 北京理工大学-材料化学-本科
+- 北京理工大学-软件工程-硕士
 
 <!-- .slide -->
 
@@ -50,6 +53,19 @@
   - 单簧管
   - 声乐
 - 睡觉
+- 以及通过自己的双手解决问题
+
+<!-- .slide -->
+
+### 参与的一些项目
+
+(为了防止丢人此处不给链接~)
+
+- Inori Compiler
+- DataVisual Hpp
+- Inori Experi Calculator
+- Inori Chemical Base DS
+- Syn-Photophy Property of Multiarylpyrroles (跑题了)
 
 <!-- .slide -->
 
@@ -67,7 +83,7 @@
 本站使用双托管技术，保证世界各地的通畅访问  
 通过国内访问看到的更新可能会推迟5-40分钟  
 
-自述文档版本 1.01.47  
+自述文档版本 1.01.4701  
 本页面样式来源于[Wu-kan](https://wu-kan.cn/){:target="_blank"}  
 背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597){:target="_blank"}绘制  
 
