@@ -68,4 +68,4 @@
 
 自述文档版本 1.01.01  
 本页面样式来源于[Wu-kan](https://wu-kan.cn/)  
-背景图由Y_Y [pixiv](https://www.pixiv.net/users/9678597)绘制
+背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597)绘制
