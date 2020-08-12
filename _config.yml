@@ -383,7 +383,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    "10/01/2019 15:52:00")
+                    "07/07/2018 15:52:00")
                   </script>
                 </div>
               - | # 不蒜子页面统计，看不懂可不改
