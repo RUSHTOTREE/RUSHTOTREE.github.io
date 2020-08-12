@@ -591,7 +591,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               rel="license">著作权声明[CC By 4.0]</a>(除特别声明或转载文章外)
         tags:
           pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
-            enable: true
+            enable: false
           count: true # 统计每个标签下文章的数量
           toc: # 在正文里显示一个标签的目录
             enable: false
