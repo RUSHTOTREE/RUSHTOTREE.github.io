@@ -75,7 +75,7 @@
 通过国内访问看到的更新可能会推迟5-40分钟  
 本站通过移动端访问的体验可能较差  
 
-自述文档版本 1.01.4803  
+自述文档版本 1.01.4804  
 本页面样式来源于[Wu-kan](https://wu-kan.cn/){:target="_blank"}  
 背景图由[pixiv: @Y_Y](https://www.pixiv.net/users/9678597){:target="_blank"}绘制  
 
@@ -84,4 +84,4 @@
 
 <!-- .slide -->
 
-地上人の生活の幸せをお祈ります
+<font face="Yu Mincho">地上人の生活の幸せをお祈ります</font>

@@ -5,7 +5,7 @@ tags:
   - 其他
 ---
 
-<font color=yellow>夏の草原に</font>  
+<font color=yellow>夏の草原に</font>
 銀河は高く歌う  
 胸に手をあてて  
 風を感じる  
