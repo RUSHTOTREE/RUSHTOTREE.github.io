@@ -21,7 +21,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.01.51beta <br/> 
+  网站版本 1.01.51 <br/> 
   最近更新 2020.08.13 <br/>
   <p>
   博文正在迁移至本站 <br/>
@@ -163,7 +163,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   transition-duration: .3s;
                   transition-timing-function: ease-in-out;
                   min-height: 100%;
-                  display: block;
+                  display: inline;
                   background-size: cover;
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
