@@ -21,7 +21,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.01.51 <br/> 
+  网站版本 1.01.51beta <br/> 
   最近更新 2020.08.13 <br/>
   <p>
   博文正在迁移至本站 <br/>
@@ -159,13 +159,16 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站背景图片，分竖屏、宽屏；改链接即可，不想用可以把这一项全删掉；要换壁纸图片的话可把url内的部分换成你自己的，比如你放在 /assets/image/background.jpg，那就改成 url(/assets/image/background.jpg)
               <style>
                 .wrap {
+                  transition-property: width,background-size,transform;
+                  transition-duration: .3s;
+                  transition-timing-function: ease-in-out;
                   min-height: 100%;
-                  display: inline;
+                  display: inline-block;
                   background-size: 100% auto;
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url();
+                  background-image: url(/assets/image/moblieBackground.jpg);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
