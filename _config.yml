@@ -113,7 +113,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                       "hidden": false,
                       "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
                       "content": {
-                        "welcome": ["欢迎来到木灵的炼金工作室！", "欢迎您！今天也在营业哦"]
+                        "welcome": ["欢迎来到木灵的炼金工作室！", "欢迎您！今天也在营业哦"],
                         "link": ["https:\/\/amachi.com.cn\/_posts\/2020-08-11-%E5%BB%BA%E7%AB%99%E9%9B%B6\/"],
                         "skin": [{"要换成我的朋友吗？", "让她放个假吧~"}],
                         "hidden": true,
