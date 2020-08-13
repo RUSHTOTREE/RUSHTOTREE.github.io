@@ -84,7 +84,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 async="async"
                 src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
               ></script>
-            - | # 引入live2d看板娘！不需要可以把这一项都删掉
+            - | # 引入live2d看板娘！不需要可以把这一项都删掉 官方文档https://docs.paul.ren/pio/#/
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
@@ -106,16 +106,18 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     pio_canvas.id = "pio";
                     pio_canvas.style.width = "14rem";
                     pio_canvas.width = "600";
-                    pio_canvas.height = "800";
+                    pio_canvas.height = "1000";
                     pio_container.insertAdjacentElement("beforeend", pio_canvas);
                     let pio = new Paul_Pio({
                       "mode": "fixed",
-                      "hidden": true,
+                      "hidden": false,
                       "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
                       "content": {
+                        "welcome": ["欢迎来到木灵的炼金工作室！", "欢迎您！今天也在营业哦"]
                         "link": ["https:\/\/amachi.com.cn\/_posts\/2020-08-11-%E5%BB%BA%E7%AB%99%E9%9B%B6\/"],
-                        "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
+                        "skin": [{"要换成我的朋友吗？", "让她放个假吧~"}],
                         "hidden": true,
+                        "close": "那么，再见啦~",
                         "custom": [{
                           "selector": "a",
                           "type": "link",
