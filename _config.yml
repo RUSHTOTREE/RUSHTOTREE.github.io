@@ -21,8 +21,8 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.01.51 <br/> 
-  最近更新 2020.08.13 <br/>
+  网站版本 1.01.52beta <br/> 
+  最近更新 2020.08.14 <br/>
   <p>
   博文正在迁移至本站 <br/>
   原博客停止维护 <br/>
@@ -141,6 +141,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                         }]
                       },
                       "model": [
+                        "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/model.json"
                         "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/uiharu/uiharu.model.json",
                         "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
                         "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
