@@ -142,7 +142,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                           "text": "评论没有审核，要对自己的发言负责哦~"
                         }]
                       },
-                      "model": ["https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D@1.0/pajamas-costume.model.json"]
+                      "model": ["https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/pajamas-costume.model.json"]
                     });'
               ></script>
             - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
