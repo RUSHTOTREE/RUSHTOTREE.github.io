@@ -21,7 +21,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.01.52beta2 <br/> 
+  网站版本 1.01.52 <br/> 
   最近更新 2020.08.14 <br/>
   <p>
   博文正在迁移至本站 <br/>
@@ -106,7 +106,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     pio_canvas.id = "pio";
                     pio_canvas.style.width = "14rem";
                     pio_canvas.width = "600";
-                    pio_canvas.height = "600";
+                    pio_canvas.height = "700";
                     pio_container.insertAdjacentElement("beforeend", pio_canvas);
                     let pio = new Paul_Pio({
                       "mode": "fixed",
