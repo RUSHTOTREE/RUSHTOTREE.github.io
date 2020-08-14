@@ -116,7 +116,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                       "content": {
                         "welcome": ["欢迎来到木灵的炼金工作室！", "欢迎您！今天也在营业哦"],
                         "link": ["https:\/\/amachi.com.cn/about/"],
-                        "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
+                        "skin": ["要看看我的其他衣服吗？"],
                         "hidden": false,
                         "close": "那么，再见啦~",
                         "custom": [{
@@ -143,7 +143,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                           "text": "评论没有审核，要对自己的发言负责哦~"
                         }]
                       },
-                      "model": ["https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/pajamas-costume.model.json"]
+                      "model": ["https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/Goddess Costume White.model.json",
+                                "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/School 2017 Costume Yellow.model.json",
+                                "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/pajamas-costume.model.json",
+                                "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/Dress Costume Brown.model.json",
+                                "https:\/\/cdn.jsdelivr.net/gh/AmachiInori/PioLive2D/default-costume.model.json"
+                                ]
                     });'
               ></script>
             - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
@@ -744,7 +749,7 @@ remote_theme: https://github.com/AmachiInori/jekyll-theme-WuK@4.0.1 #使用固�
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
 
-webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
+webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/> <https://github.com/jekyll/jekyll-seo-tag/>
 #  google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
   baidu: 3ZsfJqqeUIEJnPGZ
 
