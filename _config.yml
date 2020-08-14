@@ -111,13 +111,13 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     pio_container.insertAdjacentElement("beforeend", pio_canvas);
                     let pio = new Paul_Pio({
                       "mode": "fixed",
-                      "hidden": false,
+                      "hidden": true,
                       "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
                       "content": {
                         "welcome": ["欢迎来到木灵的炼金工作室！", "欢迎您！今天也在营业哦"],
                         "link": ["https:\/\/amachi.com.cn/about/"],
                         "skin": ["要看看我的其他衣服吗？"],
-                        "hidden": false,
+                        "hidden": true,
                         "close": "那么，再见啦~",
                         "custom": [{
                           "selector": "a",
