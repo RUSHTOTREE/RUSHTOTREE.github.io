@@ -21,7 +21,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.01.52 <br/> 
+  网站版本 1.01.525beta <br/> 
   最近更新 2020.08.14 <br/>
   <p>
   博文正在迁移至本站 <br/>
@@ -34,7 +34,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     marginwidth="0"
     marginheight="0"
   ></iframe>
-url: https://amachiinori.github.io # 你的域名，例如 https://wu-kan.github.io
+url: https://amachi.com.cn # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
