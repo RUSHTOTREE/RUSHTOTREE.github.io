@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: home
 title: reveal.js测试
 tags: 
   - 其他
