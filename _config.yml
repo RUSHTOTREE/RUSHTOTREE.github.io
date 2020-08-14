@@ -746,7 +746,7 @@ readme_index: # 缺失index.md和index.html时，使用README.md代替之
 
 webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
 #  google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
-  baidu: 5ktiqrummy
+  baidu: 3ZsfJqqeUIEJnPGZ
 
 permalink: /:categories/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
 # timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
