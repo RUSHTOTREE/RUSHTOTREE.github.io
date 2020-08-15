@@ -1,6 +1,7 @@
-title: 木灵的炼金工作室 # 站点标题
+title: 木灵的炼金工作室 # 站点标题 362行
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  いつの日も歌おう！<br/>
+  天知いのり
+  劝退学科绝赞转行中<br/>
   小五世界第一 <br/>
   <a target = "_blank" href="mailto:master@mail.amachi.com.cn">
     <i class="fas fa-envelope"></i> 
@@ -356,6 +357,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     transform: rotate3d(0, 1, 0, -180deg);
                   }
                 </style>
+              - | # 版本号信息，记得编辑
+                <div>
+                  <i class="fas fa-info-circle"></i>
+                  1.01.5402
+                </div>
               - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
                 <div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
@@ -441,18 +447,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </div>
             wordcount: # 全站字数统计
               enable: true # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
-              append: |
-                <style>
-                  .verText{
-                    text-align:center;
-                  }
-                </style>
-                <div class="verText">
-                  <br/>
-                  1.01.5304
-                  <br/>
-                  2020.08.15
-                </div>
               prepend: |
                 <i class="fas fa-user-edit fa-fw"></i>
               kilo: 千
