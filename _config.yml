@@ -21,7 +21,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.01.5302 <br/> 
+  网站版本 1.01.5304 <br/> 
   最近更新 2020.08.14 <br/>
   <p>
   博文正在迁移至本站 <br/>
@@ -441,6 +441,15 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         page:
           masthead: # 显示顶栏
             enable: true
+            append:
+              <style>
+                .masthead-title small {
+                font-size: 75%;
+                font-weight: 400;
+                color: #505050;
+                letter-spacing: 0;
+                }
+              </style>
           katex: # katex 数学公式插件
             enable: true
             append: |
