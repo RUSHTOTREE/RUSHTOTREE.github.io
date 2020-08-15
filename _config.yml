@@ -359,8 +359,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
               - | # 版本号信息，记得编辑
                 <div>
-                  <i class="fas fa-info-circle"></i>
-                  1.01.5402
+                  &nbsp;<i class="fas fa-info-circle"></i>
+                  &nbsp;1.01.5403
                 </div>
               - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
                 <div>
