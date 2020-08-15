@@ -157,7 +157,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 src='https://zz.bdstatic.com/linksubmit/push.js'
                 async="async"
               ></script>
-            - | 顶栏小字颜色修改
+            - | # 顶栏小字颜色修改
               <style>
                 .masthead-title small {
                 color: #505050;
