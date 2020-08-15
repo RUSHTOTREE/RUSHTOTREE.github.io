@@ -1,8 +1,10 @@
-title: 木灵的炼金工作室 # 站点标题 362行
+title: 木灵的炼金工作室 # 站点标题 360行
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  天知いのり
+  天知いのり<br/>
+  北京理工大学在读<br/>
   劝退学科绝赞转行中<br/>
-  小五世界第一 <br/>
+  人活着就是为了小五<br/>
+  C++ / py3 / NLP<br/>
   <a target = "_blank" href="mailto:master@mail.amachi.com.cn">
     <i class="fas fa-envelope"></i> 
   </a>
@@ -21,12 +23,6 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a target = "_blank" href="https://www.zhihu.com/people/zhao-yu-feng-33-67">
     <i class="fab fa-zhihu"></i>
   </a> 
-  <p>
-  网站版本 1.01.5402 <br/> 
-  最近更新 2020.08.14 <br/>
-  <p>
-  博文正在迁移至本站 <br/>
-  原博客停止维护 <br/>
   <iframe
     width=100%
     height=52
@@ -361,7 +357,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.5403
+                    1.01.5404
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
