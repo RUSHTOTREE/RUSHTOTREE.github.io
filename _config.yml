@@ -21,7 +21,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.01.5305 <br/> 
+  网站版本 1.01.54 <br/> 
   最近更新 2020.08.14 <br/>
   <p>
   博文正在迁移至本站 <br/>
@@ -157,7 +157,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 src='https://zz.bdstatic.com/linksubmit/push.js'
                 async="async"
               ></script>
-            - | # 顶栏小字颜色修改
+            - | # 顶栏样式 所覆盖CSS配置在 https://github.com/poole/lanyon/blob/master/public/css/lanyon.css
               <style>
                 .masthead-title small {
                 color: #505050;
@@ -431,7 +431,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <a href="https://jekyll-theme-WuK.wu-kan.cn" target="_blank">
-                    关于本站点样式..
+                    本站点样式的官方文档
                   </a>
                 </div>
               - | # Copyright声明
@@ -444,6 +444,18 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               prepend: <i class="fas fa-user-edit fa-fw"></i>
               kilo: 千
               unit: 字
+              append: |
+                <style>
+                  .verText{
+                    text-align:center;
+                  }
+                </style>
+                <div class="verText">
+                <br/>
+                网站版本 1.01.5304
+                <br/>
+                最近更新 2020.08.15
+                </div>
         page:
           masthead: # 显示顶栏
             enable: true
@@ -597,14 +609,14 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           copyright:
             | # 我的文章使用最宽松的知识共享协议：署名 4.0 国际 (CC BY 4.0)。您可以自由地：共享 — 在任何媒介以任何形式复制、发行本作品；演绎 — 修改、转换或以本作品为基础进行创作；在任何用途下，甚至商业目的。只要你遵守许可协议条款，许可人就无法收回你的这些权利。惟须遵守下列条件：署名 — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示许可人为您或您的使用背书。
             <br/>
-            <i class="fas fa-coffee fa-fw"></i>
-            如果这篇文章帮助到你, 可以<a target = "_blank" href="/merger/">请我喝一杯咖啡~</a>
-            <br/>
             <i class="fab fa-creative-commons-by fa-fw"></i>
             您可以自由地共享和演绎本文稿, 只需遵守<a
               target = "_blank"
               href="https://creativecommons.org/licenses/by/4.0/deed.zh"
               rel="license">著作权声明[CC By 4.0]</a>
+            <br/>
+            <i class="fas fa-coffee fa-fw"></i>
+            如果这篇文章帮助到你, 可以<a target = "_blank" href="/merger/">请我喝一杯咖啡~</a>
         tags:
           pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
             enable: false
