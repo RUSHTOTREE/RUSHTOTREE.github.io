@@ -21,7 +21,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-zhihu"></i>
   </a> 
   <p>
-  网站版本 1.01.54 <br/> 
+  网站版本 1.01.5401 <br/> 
   最近更新 2020.08.14 <br/>
   <p>
   博文正在迁移至本站 <br/>
@@ -444,7 +444,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               prepend: <i class="fas fa-user-edit fa-fw"></i>
               kilo: 千
               unit: 字
-              append: |
+              - |
                 <style>
                   .verText{
                     text-align:center;
