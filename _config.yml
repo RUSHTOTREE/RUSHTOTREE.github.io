@@ -318,8 +318,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <style>
                   html, body { 
                     overflow: scroll; 
+                    overflow-x: hidden;
                     min-height: 101%;
-                    min-width: 103%;
                   }
                   body {
                     width: 100vw;
@@ -370,7 +370,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.56alpha10
+                    1.01.56alpha11
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
