@@ -317,16 +317,14 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - |
                 <style>
                   html, body { 
-                    overflow-y: scroll;
+                    overflow-y: auto;
                     overflow-x: hidden;
-                  }
-                  html, body{ 
-                    overflow: scroll; 
                     min-height: 101%;
                   }
                   body {
                     width: 100vw;
                     overflow: hidden;
+                    padding-left: calc(100vw - 100%);
                   }
                 </style>
               - | #修复点击侧边栏按钮回到顶部的问题
@@ -373,7 +371,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.56alpha5
+                    1.01.56alpha6
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
