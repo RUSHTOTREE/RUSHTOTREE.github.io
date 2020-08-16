@@ -314,6 +314,19 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
             append_to_sidebar:
               #- <script defer="defer" src="https://cdn.jsdelivr.net/gh/poole/lanyon@v1.1.0/public/js/script.min.js"></script> # 点击空白处而非按钮从而关闭侧边栏的插件，可选
+              - |
+                <style>
+                  html, body { 
+                    overflow-y:scroll;
+                  }
+                  html, body{ 
+                    overflow:scroll; 
+                    min-height:101%;
+                  }
+                  html{ 
+                    overflow:-moz-scrollbars-vertical;
+                  }
+                </style>
               - | #修复点击侧边栏按钮回到顶部的问题
                 <style>
                   .sidebar-checkbox {
@@ -358,7 +371,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.55
+                    1.01.56alpha1
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
