@@ -117,7 +117,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                                     "今天有好好吃饭吗？",
                                     "你是来看我的吗？",
                                     "今天过得怎么样呢？",
-                                    "今天木灵姐姐不在家哦。"]],
+                                    "今天木灵姐姐不在家哦。"],
                         "link": ["https:\/\/amachi.com.cn/about/"],
                         "skin": ["要看看我的其他衣服吗？"],
                         "touch": ["你好呀。",  
