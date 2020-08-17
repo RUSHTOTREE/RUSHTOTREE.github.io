@@ -163,17 +163,19 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               </style>
             - | # 网站背景图片，分竖屏、宽屏；改链接即可，不想用可以把这一项全删掉；要换壁纸图片的话可把url内的部分换成你自己的，比如你放在 /assets/image/background.jpg，那就改成 url(/assets/image/background.jpg)
               <style>
-                .wrap {
-                  transition-property: width,background-size,transform;
-                  transition-duration: .3s;
-                  transition-timing-function: ease-in-out;
-                  min-height: 100%;
-                  display: block;
+                .wrap:before {
+                  content: "";
+                  background: url(/assets/image/mobileBackground.jpg) no-repeat;
                   background-size: cover;
-                  background-position: 0% 0%;
-                  background-repeat: no-repeat;
-                  background-attachment: fixed;
-                  background-image: url(/assets/image/mobileBackground.jpg);
+                  position: fixed;
+                  top: 1rem;
+                  left: 0;
+                  bottom: 0;
+                  right: 0;
+                  z-index: -1;
+                }
+                .wrap {
+                  background: #000000;
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
@@ -365,7 +367,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.56release
+                    1.01.57alpha1
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
