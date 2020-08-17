@@ -316,13 +316,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               #- <script defer="defer" src="https://cdn.jsdelivr.net/gh/poole/lanyon@v1.1.0/public/js/script.min.js"></script> # 点击空白处而非按钮从而关闭侧边栏的插件，可选
               - |
                 <style>
-                  html, body { 
+                  .sidebar { 
                     overflow: scroll; 
-                    min-height:101%;
-                  }
-                  body {
-                    width: 100vw;
-                    overflow: hidden;
+                    min-height: 101%;
                   }
                 </style>
               - | #修复点击侧边栏按钮回到顶部的问题
@@ -369,7 +365,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.56beta1
+                    1.01.56alpha12
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
