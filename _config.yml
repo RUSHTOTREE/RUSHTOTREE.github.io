@@ -167,13 +167,17 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   .wrap:before {
                     content: "";
                     background: url(/assets/image/mobileBackground.jpg) no-repeat;
-                    background-size: cover;
+                    background-size: 100%;
                     position: fixed;
-                    top: 1rem;
+                    top: 0;
                     left: 0;
                     bottom: 0;
                     right: 0;
                     z-index: -1;
+                  }
+                  .wrap {
+                    background: #000000;
+                    background-size: 0% 0%;
                   }
                 }
                 .wrap {
@@ -364,7 +368,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.57alpha2
+                    1.01.57alpha3
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
