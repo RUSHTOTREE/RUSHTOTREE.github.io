@@ -604,9 +604,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   "recordIP": true
                 })'
             ></script>
-            <p style="text-align:right"> 
-              Copyright AmachiInori 2017-2020. All Right Reserved<br/>
-            </p>
+            <div>
+              <p style="text-align:right"> 
+                Copyright AmachiInori 2017-2020. All Right Reserved<br/>
+              </p>
+            </div>
         post:
           date: # 显示博文时间
             enable: true
