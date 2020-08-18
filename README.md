@@ -49,7 +49,7 @@
 
 <!-- .slide -->
 
-### 参与的一些项目
+### 参与的项目
 
 (为了防止丢人此处不给链接~)
 
@@ -58,6 +58,16 @@
 - Inori Experi Calculator
 - Inori Chemical Base DS
 - Synthesis and Photophysical Property of multiarylpyrroles (跑题了)
+
+<!-- .slide -->
+
+### 我永远喜欢
+
+- 古明地觉
+- 伊ケ崎綾香
+- 鹿乃
+- 七濑胡桃
+- 宫水三叶
 
 <!-- .slide -->
 
