@@ -4,7 +4,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   合法女子高生(误)<br/>
   北京理工大学在读<br/>
   劝退学科绝赞转行中<br/>
-  人活着就是为了小五<br/>
+  <br/>
   C++ / py3 / NLP<br/>
   <a target = "_blank" href="mailto:master@mail.amachi.com.cn">
     <i class="fas fa-envelope"></i> 
@@ -63,6 +63,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 title="RSS"
                 type="application/rss+xml"
               />
+            - /
+              <script src="js/snowing.js"></script>
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
@@ -385,7 +387,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.58alpha2
+                    1.01.58alpha3
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
@@ -466,7 +468,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
-                  2020-2020 ZhYF
+                  2017-2020 AmachiInori
                 </div>
             wordcount: # 全站字数统计
               enable: true # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
@@ -606,7 +608,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               ></script>
             - |
               <p style="text-align:center"> 
-                Copyright AmachiInori 2017-2020. All Right Reserved<br/>
+                <small>人活着就是为了古明地觉.</small><br/>
+                <small>Copyright AmachiInori 2017-2020. All Right Reserved</small><br/>
               </p>
         post:
           date: # 显示博文时间
