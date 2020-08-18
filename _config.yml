@@ -63,7 +63,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 title="RSS"
                 type="application/rss+xml"
               />
-            - /
+            - | # 雪花效果
               <script src="js/snowing.js"></script>
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
