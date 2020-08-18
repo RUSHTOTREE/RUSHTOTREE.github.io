@@ -362,7 +362,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                 </style>
             append_to_sidebar:
-              #- <script defer="defer" src="https://cdn.jsdelivr.net/gh/poole/lanyon@v1.1.0/public/js/script.min.js"></script> # 点击空白处而非按钮从而关闭侧边栏的插件，可选
+              - <script defer="defer" src="https://cdn.jsdelivr.net/gh/poole/lanyon@v1.1.0/public/js/script.min.js"></script> # 点击空白处而非按钮从而关闭侧边栏的插件，可选
               - | #修复在某些情况下侧边栏抖动的问题
                 <style>
                   .sidebar { 
@@ -414,7 +414,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.58beta2
+                    1.01.58beta3
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
