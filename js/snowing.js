@@ -71,7 +71,7 @@
     function reset(flake) {
         flake.x = Math.floor(Math.random() * canvas.width);
         flake.y = 0;
-        flake.size = (Math.random() * 3) + 2;  //加号后面的值，雪花大小，为基准值，数值越大雪花越大
+        flake.size = (Math.random() * 3) + 1.5;  //加号后面的值，雪花大小，为基准值，数值越大雪花越大
         flake.speed = (Math.random() * 1) + 0.5;  //加号后面的值，雪花速度，为基准值，数值越大雪花速度越快
         flake.velY = flake.speed;
         flake.velX = 0;
@@ -82,7 +82,7 @@
         for (var i = 0; i < flakeCount; i++) {
             var x = Math.floor(Math.random() * canvas.width),
                 y = Math.floor(Math.random() * canvas.height),
-                size = (Math.random() * 3) + 2,  //加号后面的值，雪花大小，为基准值，数值越大雪花越大
+                size = (Math.random() * 3) + 1.5,  //加号后面的值，雪花大小，为基准值，数值越大雪花越大
                 speed = (Math.random() * 1) + 0.5,  //加号后面的值，雪花速度，为基准值，数值越大雪花速度越快
                 opacity = (Math.random() * 0.5) + 0.3;  //加号后面的值，为基准值，范围0~1
 
