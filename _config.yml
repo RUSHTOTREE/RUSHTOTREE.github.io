@@ -266,7 +266,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background: Black;
                 }
               </style>
-            - |
+            - | # 雪花效果，不需要的话可以删掉
               <div class="Snow">
                 <canvas id="Snow"></canvas>
               </div>
@@ -281,6 +281,18 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   z-index: 99999;
                   background: rgba(125,137,95,0.1);
                   pointer-events: none;
+                }
+                @media (max-aspect-ratio: 2400/1850) {
+                  #Snow{
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 0%;
+                    height: 0%;
+                    z-index: 99999;
+                    background: rgba(125,137,95,0.1);
+                    pointer-events: none;
+                  }
                 }
               </style>
           sidebar: # 此配置项下是一些关于侧边栏的配置
@@ -402,7 +414,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.58alpha4
+                    1.01.58alpha5
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
@@ -623,7 +635,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               ></script>
             - |
               <p style="text-align:center"> 
-                <small>人活着就是为了古明地觉.</small><br/>
+                <small>晴れたり 泣いたり あとは時々歌ったり.</small><br/>
                 <small>Copyright AmachiInori 2017-2020. All Right Reserved</small><br/>
               </p>
         post:
