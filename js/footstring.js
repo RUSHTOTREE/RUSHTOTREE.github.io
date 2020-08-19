@@ -5,7 +5,7 @@ function getString(){
         '煌めく世界中に　僕の歌を乗せて.',
         '君が笑うたび　どんな明日が来ようとも怖くなかった.',
         'いつの日も歌おう このこころのまま.',
-        '笑颜を见せて.',
+        '笑颜を見せて.',
         '笑って くちびるに歌を持って.'
     );
     chinese = new Array(
@@ -20,7 +20,7 @@ function getString(){
     var num = Math.random();
     num = nihongo.length * num;
     num = Math.floor(num);
-    document.getElementById("footJP").innerHTML = "<small>" + nihongo[num] + "<br/>" + chinese[num] + "</small>";
+    document.getElementById("footJP").innerHTML = "<b>" + "<small>" + nihongo[num] + "<br/>" + chinese[num] + "</small>" + "</b>";
 }
 
 window.onload = getString;
