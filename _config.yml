@@ -43,6 +43,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       categories: "_posts"
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
+          verson: 1.01.58beta11
           page-foot: 
             - |
               <p style="text-align: center;color: white"> 
@@ -422,7 +423,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.58beta10
+                    {{ page.jekyll-theme-WuK.default.verson }}
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
