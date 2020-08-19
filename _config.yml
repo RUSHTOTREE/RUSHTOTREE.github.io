@@ -1,4 +1,4 @@
-title: 木灵的炼金工作室 # 站点标题 版本号在425行
+title: 木灵的炼金工作室 # 站点标题 版本号在432行
 description: | # 头像背后的信息（html格式），<br/>代表换行
   天知いのり<br/>
   合法女子高生(误)<br/>
@@ -44,18 +44,25 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           page-foot: 
-            - |
+            - | #页尾内容
+              <p style="text-align: center;color: #D8D8D8" id="footJP"> 
+                <br/>
+              </p>
+              <p style="text-align: center;color: #D8D8D8" id="footCN"> 
+                <br/>
+              </p>
               <p style="text-align: center;color: #D8D8D8"> 
-                <small>晴れたり 泣いたり あとは時々歌ったり.</small><br/>
-                <small>Copyright AmachiInori 2017-2020. All Right Reserved</small><br/>
+                <small>Copyright AmachiInori 2017-2020. All Right Reserved.</small><br/>
                 <small>Powered By Jekyll.<br/>
-                <small>amachi.com.cn<br/>
+                <small>amachi.com.cn</small></small><br/><br/><br/>
               </p>
           body:
             theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
             layout-reverse: true # 开启后sidebar在右边，反之左边
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
+            - | #页尾标语轮换，不需要的话可以连同page-foot中的前6行内容一起删掉
+              <script src="/js/footstring.js"></script>
             - | #一些页面优化标签，看不懂可跳过
               <meta
                 name="viewport"
@@ -422,7 +429,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.58release
+                    1.01.59release
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
