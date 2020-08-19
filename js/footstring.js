@@ -20,7 +20,7 @@ function getString(){
     var num = Math.random();
     num = nihongo.length * num;
     num = Math.floor(num);
-    document.getElementById("footJP").innerHTML = "<small>" + nihongo[num] + "</small>" + "</br>" + "<small>" + chinese[num] + "</small>";
+    document.getElementById("footJP").innerHTML = "<small>" + nihongo[num] + "<br/>" + chinese[num] + "</small>";
 }
 
 window.onload = getString;
