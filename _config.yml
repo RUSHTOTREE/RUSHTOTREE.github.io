@@ -43,6 +43,14 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       categories: "_posts"
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
+          page-foot: 
+            - |
+              <p style="text-align:center"> 
+                <small>晴れたり 泣いたり あとは時々歌ったり.</small><br/>
+                <small>Copyright AmachiInori 2017-2020. All Right Reserved</small><br/>
+                <small>Powered By Jekyll.<br/>
+                <small>amachi.com.cn<br/>
+              </p>
           body:
             theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
             layout-reverse: true # 开启后sidebar在右边，反之左边
@@ -414,7 +422,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.58beta3
+                    1.01.58beta4
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
@@ -633,13 +641,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     "recordIP": true
                   })'
               ></script>
-            - |
-              <p style="text-align:center"> 
-                <small>晴れたり 泣いたり あとは時々歌ったり.</small><br/>
-                <small>Copyright AmachiInori 2017-2020. All Right Reserved</small><br/>
-                <small>Powered By Jekyll.<br/>
-                <small>amachi.com.cn<br/>
-              </p>
         post:
           date: # 显示博文时间
             enable: true
