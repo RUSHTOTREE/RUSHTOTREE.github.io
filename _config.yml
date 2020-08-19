@@ -1,4 +1,4 @@
-title: 木灵的炼金工作室 # 站点标题 360行
+title: 木灵的炼金工作室 # 站点标题 版本号在425行
 description: | # 头像背后的信息（html格式），<br/>代表换行
   天知いのり<br/>
   合法女子高生(误)<br/>
@@ -45,7 +45,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         default:
           page-foot: 
             - |
-              <p style="text-align:center"> 
+              <p style="text-align:center, color=white"> 
                 <small>晴れたり 泣いたり あとは時々歌ったり.</small><br/>
                 <small>Copyright AmachiInori 2017-2020. All Right Reserved</small><br/>
                 <small>Powered By Jekyll.<br/>
@@ -422,7 +422,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.58beta8
+                    1.01.58beta9
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
