@@ -45,7 +45,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         default:
           page-foot: 
             - |
-              <p style="text-align:center, color=white"> 
+              <p style="text-align: center;color: white"> 
                 <small>晴れたり 泣いたり あとは時々歌ったり.</small><br/>
                 <small>Copyright AmachiInori 2017-2020. All Right Reserved</small><br/>
                 <small>Powered By Jekyll.<br/>
@@ -422,7 +422,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <div>
                   <div>
                     <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.58beta9
+                    1.01.58beta10
                   </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
