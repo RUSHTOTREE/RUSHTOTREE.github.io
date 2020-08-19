@@ -48,9 +48,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <p style="text-align: center;color: #D8D8D8" id="footJP"> 
                 <br/>
               </p>
-              <p style="text-align: center;color: #D8D8D8" id="footCN"> 
-                <br/>
-              </p>
               <p style="text-align: center;color: #D8D8D8"> 
                 <small>Copyright AmachiInori 2017-2020. All Right Reserved.</small><br/>
                 <small>Powered By Jekyll.<br/>
