@@ -21,6 +21,7 @@ function getString(){
     num = nihongo.length * num;
     num = Math.floor(num);
     document.getElementById("footJP").innerHTML = "<small>" + nihongo[num] + "</small>" + "<br/>";
+    document.getElementById("footCN").innerHTML = "<small>" + chinese[num] + "</small>" + "<br/>";
 }
 
 window.onload = getString;
