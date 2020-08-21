@@ -32,6 +32,9 @@ function getString(){
         '在未来面前畏缩的心 想起来一个名字'
     );
     var num = Math.random();
+    while (num == 1) {
+        num = Math.random();
+    }
     num = nihongo.length * num;
     num = Math.floor(num);
     document.getElementById("footJP").innerHTML = "<small>" + nihongo[num] + "<br/>" + chinese[num] + "</small>";
