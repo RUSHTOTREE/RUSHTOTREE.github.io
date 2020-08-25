@@ -84,7 +84,7 @@
                 y = Math.floor(Math.random() * canvas.height),
                 size = (Math.random() * 3) + 1.5,  //加号后面的值，雪花大小，为基准值，数值越大雪花越大
                 speed = (Math.random() * 1) + 0.5,  //加号后面的值，雪花速度，为基准值，数值越大雪花速度越快
-                opacity = (Math.random() * 0.5) + 0.3;  //加号后面的值，为基准值，范围0~1
+                opacity = (Math.random() * 0.5) + 0.1;  //加号后面的值，为基准值，范围0~1
 
             flakes.push({
                 speed: speed,
