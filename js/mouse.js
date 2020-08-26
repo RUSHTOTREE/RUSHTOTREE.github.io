@@ -1,6 +1,6 @@
 (function fairyDustCursor() {
   
-  var possibleColors = ["#F0F8FF", "#FFFFF0", "#FFFAFA", "#4169E1", "#87CEFA", "#1E90FF", "#FFD700", "#191970"]
+  var possibleColors = ["#F0F8FF", "#FFFFF0", "#FFFAFA", "#4169E1", "#87CEFA", "#1E90FF", "#FFD700"]
   var width = window.innerWidth;
   var height = window.innerHeight;
   var cursor = {x: width/2, y: width/2};
