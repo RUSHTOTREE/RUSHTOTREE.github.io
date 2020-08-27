@@ -37,7 +37,7 @@ function getString(){
     }
     num = nihongo.length * num;
     num = Math.floor(num);
-    document.getElementById("footJP").innerHTML = "<small>" + nihongo[num] + "<br/>" + chinese[num] + "</small>";
+    document.getElementById("footJP").innerHTML = "<small>" + nihongo[num] + "</small>";
 }
 
 window.onload = getString;
