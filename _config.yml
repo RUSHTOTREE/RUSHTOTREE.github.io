@@ -1,4 +1,5 @@
-title: 木灵的炼金工作室 # 站点标题 版本号在432行
+# 版本号在432行   生成指令 bundle exec jekyll s
+title: 木灵的炼金工作室 # 站点标题 
 description: | # 头像背后的信息（html格式），<br/>代表换行
   天知いのり<br/>
   合法女子高生(误)<br/>
@@ -80,12 +81,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="/assets/image/77910053_p0 (2)"
+                href="/assets/image/77910053_p0 (2).png"
               />
               <link
                 rel="shortcut
                 icon"
-                href="/assets/image/77910053_p0 (2)"
+                href="/assets/image/77910053_p0 (2).png"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
