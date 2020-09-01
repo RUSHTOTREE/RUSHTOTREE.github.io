@@ -1,6 +1,6 @@
-# 版本号在432行   生成指令 bundle exec jekyll s
+# 生成指令 bundle exec jekyll s
 title: 木灵的炼金工作室 # 站点标题 
-description: | # 头像背后的信息（html格式），<br/>代表换行
+description: | 
   天知いのり<br/>
   合法女子高生(误)<br/>
   北京理工大学在读<br/>
@@ -42,6 +42,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       path: "" # an empty string here means all files in the project
     values: # 以下配置项也可以在任意页面自定义
       categories: "_posts"
+      verson: |
+        <i class="fas fa-info-circle fa-fw"></i> 
+        1.01.60alpha
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           page-foot: 
@@ -321,19 +324,25 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
+                target: _self
               - title: '<i class="fas fa-comments fa-fw"></i> 留言'
                 href: /comments/
+                target: _self
               - title: '<i class="fas fa-tags fa-fw"></i> 标签'
                 href: /tags/
+                target: _self
               - title: '<i class="fas fa-archive fa-fw"></i> 时间线'
                 href: /archive/
+                target: _self
               - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
                 href: /merger/
+                target: _blank
               - title: '<i class="fas fa-users fa-fw"></i> 友链'
                 href: /friends/
+                target: _self
               - title: '<i class="fas fa-info-circle fa-fw"></i> 关于'
                 href: /about/
-                target: "_blank"
+                target: _self
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: true # 可能导致缓慢的搜索和加载
@@ -430,10 +439,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
               - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
                 <div>
-                  <div>
-                    <i class="fas fa-info-circle fa-fw"></i> 
-                    1.01.59release
-                  </div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
                     <i class="fas fa-spinner fa-pulse"></i>
