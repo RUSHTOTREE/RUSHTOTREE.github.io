@@ -201,7 +201,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://i.loli.net/2020/08/29/8cqyVo1XeDBHUv4.jpg); /*PC端 此URL可更换*/ 
+                  background-image: url(https://i.loli.net/2020/09/04/V2d9HYk5eLQobUy.jpg); /*PC端 此URL可更换*/ 
               /*  background-image: url(https://i.loli.net/2020/08/20/AIJC7U2enb4PpBG.jpg); */
                 }
                 @media (max-aspect-ratio: 2400/1850) {
