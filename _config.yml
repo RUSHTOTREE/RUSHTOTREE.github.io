@@ -44,7 +44,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       categories: "_posts"
       verson: |
         <br/><i class="fas fa-info-circle fa-fw"></i> 
-        1.01.61alpha5
+        1.01.61alpha6
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           page-foot: 
@@ -545,7 +545,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # 修复单行公式过长时渲染出屏幕的问题
                 <style>
                   .katex-display {
-                    height: 100%;
+                    min-height: 100%;
                     overflow-x: auto;
                     overflow-y: visible;
                   }
