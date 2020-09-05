@@ -44,7 +44,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       categories: "_posts"
       verson: |
         <br/><i class="fas fa-info-circle fa-fw"></i> 
-        1.01.61alpha9
+        1.01.61alpha10
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           page-foot: 
@@ -549,6 +549,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     width: 100%;
                     overflow-x: auto;
                     overflow-y: hidden;
+                  }
+                  @media (max-aspect-ratio: 2400/1850) {
+                    .katex-display::-webkit-scrollbar {
+                      display: none;
+                    }
                   }
                 </style>
           mermaid: # mermaid图插件
