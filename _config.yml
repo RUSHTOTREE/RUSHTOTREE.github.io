@@ -44,7 +44,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       categories: "_posts"
       verson: |
         <br/><i class="fas fa-info-circle fa-fw"></i> 
-        1.01.60release
+        1.01.61alpha1
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           page-foot: 
@@ -531,16 +531,24 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: true
           katex: # katex 数学公式插件
             enable: true
-            append: |
-              <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
-              />
-              <script
-                src="https://cdn.jsdelivr.net/combine/npm/katex@0.12.0/dist/katex.min.js,npm/katex@0.12.0/dist/contrib/auto-render.min.js"
-                async="async"
-                onload='renderMathInElement(document.body, { delimiters: [{left: "$$", right: "$$", display: true}, { left: "$", right: "$", display: false }, {left: "\\(", right: "\\)", display: false}, {left: "\\[", right: "\\]", display: true}]})'
-              ></script>
+            append: 
+              - | # 引入插件
+                <link
+                  rel="stylesheet"
+                  href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+                />
+                <script
+                  src="https://cdn.jsdelivr.net/combine/npm/katex@0.12.0/dist/katex.min.js,npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+                  async="async"
+                  onload='renderMathInElement(document.body, { delimiters: [{left: "$$", right: "$$", display: true}, { left: "$", right: "$", display: false }, {left: "\\(", right: "\\)", display: false}, {left: "\\[", right: "\\]", display: true}]})'
+                ></script>
+              - | # 修复单行公式过长时渲染出屏幕的问题
+                <style>
+                  .katex-display {
+                    overflow: auto; 
+                    min-height: 101%;
+                  }
+                </style>
           mermaid: # mermaid图插件
             enable: true
             append: |
