@@ -555,9 +555,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                 </style>
                 <script>
-                  MathJax.Hub.Queue(function () {
-                    $('.MathJax_Display').wrap("<div class='.katex-display-outer'></div>");
-                  });
+                  function wrapKatex {
+                    $('.katex-display').wrap("<div class='.katex-display-outer'></div>");
+                  }
+                  window.onload = wrapKatex;
                 </script>
           mermaid: # mermaid图插件
             enable: true
