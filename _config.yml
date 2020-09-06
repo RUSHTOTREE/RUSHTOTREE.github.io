@@ -44,7 +44,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       categories: "_posts"
       verson: |
         <br/><i class="fas fa-info-circle fa-fw"></i> 
-        1.01.61release FT03
+        1.01.61release FT04
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           page-foot: 
@@ -549,14 +549,14 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     overflow-y: hidden;
                   }
                   @media (max-aspect-ratio: 2400/1850) {
-                    .katex-display::-webkit-scrollbar {
+                    .katex-display-outer::-webkit-scrollbar {
                       display: none;
                     }
                   }
                 </style>
                 <script>
                   MathJax.Hub.Queue(function () {
-                    $('.katex-display').wrap("<div class='.katex-display-outer'></div>");
+                    $('.MathJax_Display').wrap("<div class='.katex-display-outer'></div>");
                   });
                 </script>
           mermaid: # mermaid图插件
