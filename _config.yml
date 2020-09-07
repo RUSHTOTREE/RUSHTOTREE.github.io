@@ -767,30 +767,30 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               }
               .reveal h1 {
                 font-family: SimSun, Yu Mincho;
-                color: #FFFFFF;
+                color: #FFFFCC;
               }
               .reveal h2 {
                 font-family: SimSun, Yu Mincho;
-                color: #FFFFFF;
+                color: #FFFFCC;
               }
               .reveal h3 {
                 font-family: SimSun, Yu Mincho;
-                color: #FFFFFF;
+                color: #FFFFCC;
               }
               .reveal a {
                 color: #6495ED;
               }
               .reveal p {
                 font-family: SimSun, Yu Mincho;
-                color: #FFFFFF;
+                color: #FFFFCC;
               }
               .reveal ul {
                 font-family: SimSun;
-                color: #FFFFFF;
+                color: #FFFFCC;
               }
               .reveal strong {
                 font-family: SimSun;
-                color: #FFFFFF;
+                color: #FFFFCC;
               }
             </style>
           append: |
