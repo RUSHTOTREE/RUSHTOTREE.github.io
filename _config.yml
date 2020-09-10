@@ -44,7 +44,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       categories: "_posts"
       verson: |
         <br/><i class="fas fa-info-circle fa-fw"></i> 
-        1.01.61release FT07
+        1.01.62alpha1
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           page-foot: 
@@ -57,6 +57,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 <small>Powered By Jekyll.</small><br/>
                 <small>amachi.com.cn</small></small><br/>
               </p> 
+          copyright: default
           body:
             theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
             layout-reverse: true # 开启后sidebar在右边，反之左边
