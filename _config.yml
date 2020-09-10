@@ -5,7 +5,7 @@ description: |
   合法女子高生(误)<br/>
   C++ / py3 / NLP<br/>
   <br/>
-  感知世界的敏锐是<br/>
+  敏锐的感知和审美是<br/>
   一个人最珍贵的天赋<br/> 
   <a target = "_blank" href="mailto:master@mail.amachi.com.cn">
     <i class="fas fa-envelope"></i> 
@@ -49,10 +49,16 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         default:
           page-foot: 
             - | #页尾内容
-              <p style="text-align: center;color: #F0F8FF" id="footJP"> 
+              <p style="
+                text-align: center;
+                color: #CFFFFF;
+                font-family: 'Noto Serif JP', serif"; id="footJP"> 
                 <br/>
               </p>
-              <p style="text-align: center;color: #F0F8FF"> 
+              <p style="
+                text-align: center;
+                color: #F0F8FF;
+                font-family: 'Cardo', serif;"> 
                 <small>Copyright AmachiInori 2017-2020. All Right Reserved.</small><br/>
                 <small>Powered By Jekyll.</small><br/>
                 <small>amachi.com.cn</small></small><br/>
@@ -60,8 +66,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           body:
             theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
             layout-reverse: true # 开启后sidebar在右边，反之左边
-            sidebar-overlay: true # 开启后正文不随sidebar移动而移动
+            sidebar-overlay: false # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
+            - | #外部字体引入
+              <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+              <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
             - | #页尾标语轮换，不需要的话可以连同page-foot中的前6行内容一起删掉
               <script src="/js/footstring.js"></script>
             - | #鼠标效果，不需要的话可以删掉
@@ -247,7 +256,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
-                  font-family: PingFang SC, Menlo, Monaco, "Courier New", monospace, SimSun, Yu Mincho;
+                  font-family: PingFang SC, Menlo, Monaco, "Courier New", monospace, SimSun, "Noto Serif JP", serif,font-family: 'Cardo';
                 }
               </style>
             - | # 网页标题使用加粗字号
@@ -789,11 +798,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 color: #CFFFFF;
               }
               .reveal ul {
-                font-family: SimSun;
+                font-family: SimSun, Yu Mincho;
                 color: #CFFFFF;
               }
               .reveal strong {
-                font-family: SimSun;
+                font-family: SimSun, Yu Mincho;
                 color: #CCFFFF;
               }
             </style>
