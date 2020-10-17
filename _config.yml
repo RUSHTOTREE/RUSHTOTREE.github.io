@@ -153,7 +153,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                                   "你是来看我的吗？",
                                   "愿精灵指引你。"],
                         "hidden": true,
-                        "referer": "欢迎您从 %t 远道而来"
+                        "referer": "欢迎您从 %t 远道而来",
                         "close": "那么，再见呀。",
                         "custom": [{
                           "selector": "a",
@@ -861,7 +861,7 @@ webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/> <htt
 
 permalink: /:categories/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
 # timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
-# future: false # 不发布时间在未来的文章
+future: true # 发布时间在未来的文章
 
 # limit_posts: 999 # 限制博文数量
 # encoding: utf-8
