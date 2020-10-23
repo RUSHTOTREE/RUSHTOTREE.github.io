@@ -51,14 +51,14 @@
 
 <!-- .slide -->
 
-### 参与的项目
+### 开发的项目
 
 (为了防止丢人此处不给链接~)
 
 - Inori Compiler
 - DataVisual Hpp
 - Inori Experi Calculator
-- Inori Chemical Base DS
+- Amachi STL
 - Synthesis and Photophysical Property of multiarylpyrroles (跑题了)
 
 <!-- .slide -->
