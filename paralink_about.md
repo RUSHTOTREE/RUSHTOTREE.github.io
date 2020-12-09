@@ -66,7 +66,7 @@ PC端背景：[星の実](https://www.pixiv.net/artworks/63652138){:target="_bla
 最喜欢的轻小说作者是しめさば和天沢夏月  
 最喜欢的画师是Y_Y和岸田梅尔  
 最喜欢的作曲家是门德尔松  
-最向往的职业是职业乐团长笛手  
+最向往的职业是特别厉害的工程师或职业乐团长笛手  
 
 ### 愿望
 
@@ -83,7 +83,7 @@ PC端背景：[星の実](https://www.pixiv.net/artworks/63652138){:target="_bla
 - [Inori Compiler](https://github.com/AmachiInori/Satoru-InoriComplier){:target="_blank"} - 开发中
 - [DataVisual Hpp](https://github.com/AmachiInori/dataVisual){:target="_blank"} - 计划重构
 - [Inori Experi Calculator](https://github.com/AmachiInori/MPExDataProcessing){:target="_blank"} - 小工具
-- Synthesis and Photophysical Property of multiarylpyrroles (材料化学本科毕业设计)
+- Synthesis and Photophysical Property of multiarylpyrroles (材料化学本科课程设计论文)
 
 
 
