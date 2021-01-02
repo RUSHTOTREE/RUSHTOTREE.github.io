@@ -1,12 +1,7 @@
 # 生成指令 bundle exec jekyll s
-title: 木灵的炼金工作室 # 站点标题 
+title: 站点标题 # 站点标题 
 description: | 
-  天知いのり<br/>
-  合法女子高生(误)<br/>
-  C++ / py3 / NLP<br/>
-  <br/>
-  敏锐灵活的感知是<br/>
-  一个人最珍贵的天赋<br/> 
+  描述内容
   <a target = "_blank" href="mailto:master@mail.amachi.com.cn">
     <i class="fas fa-envelope"></i> 
   </a>
@@ -34,7 +29,7 @@ description: |
     marginheight="0"
   ></iframe>
 url: https://amachi.com.cn
-tagline: "天知いのり的个人站"
+tagline: "站点副标题"
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
@@ -44,7 +39,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       categories: "_posts"
       verson: |
         <br/><i class="fas fa-info-circle fa-fw"></i> 
-        1.01.63release
+        版本号，可以留空
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           page-foot: 
@@ -210,7 +205,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://i.loli.net/2020/09/08/6nC9AHsKYI28flV.jpg); /*PC端 此URL可更换*/ 
+                  background-image: url(https://i.loli.net/2020/09/08/6nC9AHsKYI28flV.jpg); /*PC端背景地址 此URL可更换*/ 
                 }
                 @media (max-aspect-ratio: 2400/1850) {
                   .wrap {
@@ -227,7 +222,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                   .wrap:before {
                     content: "";
-                    background: url(https://i.loli.net/2020/09/06/xLpZACOHFmBn1T2.jpg) no-repeat; /*移动端，此URL可更换*/
+                    background: url(https://i.loli.net/2020/09/06/xLpZACOHFmBn1T2.jpg) no-repeat; /*移动端背景地址，此URL可更换*/
                     background-size: cover;
                     position: fixed;
                     top: 0;
@@ -857,7 +852,7 @@ readme_index: # 缺失index.md和index.html时，使用README.md代替之
 
 webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/> <https://github.com/jekyll/jekyll-seo-tag/>
 #  google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
-  baidu: 3ZsfJqqeUIEJnPGZ
+#  baidu: 3ZsfJqqeUIEJnPGZ
 
 permalink: /:categories/:year-:month-:day-:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
 # timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
